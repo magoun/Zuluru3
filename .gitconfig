@@ -1,0 +1,18 @@
+[user]
+    name = Creighton Magoun
+    email = magoun@gmail.com
+[core]
+    whitespace = off
+    excludesfile = ~/.gitignore
+[advice]
+    statusuoption = false
+[color]
+    ui = true
+[push]
+    default = simple
+[alias]
+    ls = log --date=local --pretty=format:"%C(yellow)%h\\ %C(cyan)%ad%Cred%d\\ %Creset%s%Cblue"
+    s = status
+    a = add
+    c = commit -m
+    b = branch
