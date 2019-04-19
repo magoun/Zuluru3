@@ -2,4 +2,4 @@ FROM gitpod/workspace-full
 
 USER root
 
-RUN apt update && apt install -y mariadb
+RUN apt-get update && apt-get install -y mariadb
